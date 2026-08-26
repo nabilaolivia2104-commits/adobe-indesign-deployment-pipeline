@@ -1,0 +1,8 @@
+name: "adobe-indesign-deployment-pipeline"
+description: 'Automation action'
+inputs:
+  token:
+    required: true
+runs:
+  using: 'node20'
+  main: 'dist/index.js'

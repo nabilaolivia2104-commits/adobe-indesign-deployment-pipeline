@@ -1,0 +1,8 @@
+# Default behavior
+# This file is used to override language statistics
+# Do not edit manually  
+docs/** linguist-vendored
+*.jpeg binary
+*.png binary
+
+*.ts linguist-detectable
